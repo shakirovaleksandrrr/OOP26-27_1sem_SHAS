@@ -1,0 +1,25 @@
+# Компиляция Java и сборочные директории
+**/out/
+**/bin/
+**/*.class
+**/*.jar
+**/*.war
+
+# Временные файлы тестов и данных
+**/workspace_lab06/
+**/data/
+**/test_lab06_*/
+**/*.tmp
+**/*.log
+
+# Настройки IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Windows
+Thumbs.db
+Desktop.ini
