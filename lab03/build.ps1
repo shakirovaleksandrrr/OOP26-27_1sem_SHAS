@@ -1,5 +1,7 @@
 $ErrorActionPreference = "Stop"
 Set-Location -LiteralPath $PSScriptRoot
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $env:Path = "C:\Program Files\Java\jdk-21\bin;" + $env:Path
 

@@ -1,4 +1,7 @@
 # Run tests across all laboratory works (3, 4, 5, 6, 7)
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
 Write-Host "==================================================================" -ForegroundColor Cyan
 Write-Host "   RUNNING ALL VERIFICATION TESTS (LABS 3, 4, 5, 6, 7)            " -ForegroundColor Cyan
 Write-Host "==================================================================" -ForegroundColor Cyan
